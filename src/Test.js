@@ -4,7 +4,7 @@ class Test extends Component {
     render() {
         return (
             <div>
-                <p>hello world</p>
+                <p>Hi My name is Sajad Sohrabi</p>
             </div>
         );
     }
