@@ -1,0 +1,41 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+ .chap{
+    width: 15%;
+    height: 600px;
+    height: 700px;
+    margin-top: 0px;
+    margin-left: 4%;
+    box-shadow: 1px 1px 6px rgb(67, 66, 66);
+
+}
+.chap button{
+    width: 70%;
+    height: 50px;
+    margin-top: 7%;
+    box-shadow: 1px 1px 6px rgb(67, 66, 66);
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+}
+
+.rast{
+    width: 73%;
+    margin-left: 3%;
+    box-shadow: 1px 1px 6px rgb(67, 66, 66);
+
+
+}
+.rast p{
+    color: black;
+}
+
+@media screen and (max-width: 480px) {
+    .main {
+      flex-direction: column;
+    }
+  }
